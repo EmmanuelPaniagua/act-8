@@ -1,11 +1,11 @@
-from PySide2.QtWidgets import QPushButton, QApplication
+from PySide2.QtWidgets import QMainWindow, QApplication
 import sys
 
 
 app = QApplication()
 
-button = QPushButton('Prueba')
+window = QMainWindow()
 
-button.show()
+window.show()
 
 sys.exit(app.exec_())
