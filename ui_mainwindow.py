@@ -17,12 +17,13 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(800, 600)
+        MainWindow.resize(258, 368)
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
+        self.gridLayout_2 = QGridLayout(self.centralwidget)
+        self.gridLayout_2.setObjectName(u"gridLayout_2")
         self.groupBox = QGroupBox(self.centralwidget)
         self.groupBox.setObjectName(u"groupBox")
-        self.groupBox.setGeometry(QRect(40, 50, 223, 309))
         self.gridLayout = QGridLayout(self.groupBox)
         self.gridLayout.setObjectName(u"gridLayout")
         self.label = QLabel(self.groupBox)
@@ -80,11 +81,6 @@ class Ui_MainWindow(object):
 
         self.gridLayout.addWidget(self.label_6, 5, 0, 1, 1)
 
-        self.lineEdit_6 = QLineEdit(self.groupBox)
-        self.lineEdit_6.setObjectName(u"lineEdit_6")
-
-        self.gridLayout.addWidget(self.lineEdit_6, 5, 1, 1, 2)
-
         self.label_7 = QLabel(self.groupBox)
         self.label_7.setObjectName(u"label_7")
 
@@ -125,10 +121,18 @@ class Ui_MainWindow(object):
 
         self.gridLayout.addWidget(self.pushButton, 10, 0, 1, 3)
 
+        self.lineEdit_6 = QLineEdit(self.groupBox)
+        self.lineEdit_6.setObjectName(u"lineEdit_6")
+
+        self.gridLayout.addWidget(self.lineEdit_6, 5, 2, 1, 1)
+
+
+        self.gridLayout_2.addWidget(self.groupBox, 0, 0, 1, 1)
+
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QMenuBar(MainWindow)
         self.menubar.setObjectName(u"menubar")
-        self.menubar.setGeometry(QRect(0, 0, 800, 21))
+        self.menubar.setGeometry(QRect(0, 0, 258, 21))
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QStatusBar(MainWindow)
         self.statusbar.setObjectName(u"statusbar")
