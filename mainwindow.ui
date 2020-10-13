@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>258</width>
+    <width>205</width>
     <height>368</height>
    </rect>
   </property>
@@ -21,35 +21,8 @@
        <string>Datos</string>
       </property>
       <layout class="QGridLayout" name="gridLayout">
-       <item row="0" column="0">
-        <widget class="QLabel" name="label">
-         <property name="text">
-          <string>id:</string>
-         </property>
-        </widget>
-       </item>
        <item row="0" column="1" colspan="2">
         <widget class="QLineEdit" name="lineEdit"/>
-       </item>
-       <item row="1" column="0">
-        <widget class="QLabel" name="label_2">
-         <property name="text">
-          <string>origen en x:</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="1" colspan="2">
-        <widget class="QLineEdit" name="lineEdit_2"/>
-       </item>
-       <item row="2" column="0">
-        <widget class="QLabel" name="label_3">
-         <property name="text">
-          <string>origen en y:</string>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="1" colspan="2">
-        <widget class="QLineEdit" name="lineEdit_3"/>
        </item>
        <item row="3" column="0">
         <widget class="QLabel" name="label_4">
@@ -58,18 +31,12 @@
          </property>
         </widget>
        </item>
-       <item row="3" column="1" colspan="2">
-        <widget class="QLineEdit" name="lineEdit_4"/>
-       </item>
-       <item row="4" column="0">
-        <widget class="QLabel" name="label_5">
+       <item row="9" column="0" colspan="2">
+        <widget class="QLabel" name="label_10">
          <property name="text">
-          <string>destino y: </string>
+          <string>blue: </string>
          </property>
         </widget>
-       </item>
-       <item row="4" column="1" colspan="2">
-        <widget class="QLineEdit" name="lineEdit_5"/>
        </item>
        <item row="5" column="0">
         <widget class="QLabel" name="label_6">
@@ -78,10 +45,13 @@
          </property>
         </widget>
        </item>
-       <item row="6" column="0">
-        <widget class="QLabel" name="label_7">
+       <item row="5" column="2">
+        <widget class="QLineEdit" name="lineEdit_6"/>
+       </item>
+       <item row="11" column="0" colspan="3">
+        <widget class="QPushButton" name="pushButton">
          <property name="text">
-          <string>color (rgb):</string>
+          <string>Agregar</string>
          </property>
         </widget>
        </item>
@@ -92,9 +62,6 @@
          </property>
         </widget>
        </item>
-       <item row="7" column="2">
-        <widget class="QLineEdit" name="lineEdit_7"/>
-       </item>
        <item row="8" column="0" colspan="2">
         <widget class="QLabel" name="label_9">
          <property name="text">
@@ -102,28 +69,61 @@
          </property>
         </widget>
        </item>
-       <item row="8" column="2">
-        <widget class="QLineEdit" name="lineEdit_8"/>
-       </item>
-       <item row="9" column="0" colspan="2">
-        <widget class="QLabel" name="label_10">
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_2">
          <property name="text">
-          <string>blue: </string>
+          <string>origen en x:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>origen en y:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLabel" name="label_7">
+         <property name="text">
+          <string>color (rgb):</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>id:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>destino y: </string>
          </property>
         </widget>
        </item>
        <item row="9" column="2">
-        <widget class="QLineEdit" name="lineEdit_9"/>
+        <widget class="QSpinBox" name="spinBox"/>
        </item>
-       <item row="10" column="0" colspan="3">
-        <widget class="QPushButton" name="pushButton">
-         <property name="text">
-          <string>Agregar</string>
-         </property>
-        </widget>
+       <item row="8" column="2">
+        <widget class="QSpinBox" name="spinBox_2"/>
        </item>
-       <item row="5" column="2">
-        <widget class="QLineEdit" name="lineEdit_6"/>
+       <item row="7" column="2">
+        <widget class="QSpinBox" name="spinBox_3"/>
+       </item>
+       <item row="4" column="2">
+        <widget class="QSpinBox" name="spinBox_4"/>
+       </item>
+       <item row="3" column="2">
+        <widget class="QSpinBox" name="spinBox_5"/>
+       </item>
+       <item row="2" column="2">
+        <widget class="QSpinBox" name="spinBox_6"/>
+       </item>
+       <item row="1" column="2">
+        <widget class="QSpinBox" name="spinBox_7"/>
        </item>
       </layout>
      </widget>
@@ -135,7 +135,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>258</width>
+     <width>205</width>
      <height>21</height>
     </rect>
    </property>
